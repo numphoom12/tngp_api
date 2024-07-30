@@ -1,0 +1,11 @@
+package sql
+
+type (
+	Query struct{
+		INSERT_ACCOUNT			string `query:"INSERT_ACCOUNT"`
+		SELECT_ACCOUNTS 		string `query:"SELECT_ACCOUNTS"`
+		SELECT_ACCOUNT_BY_ID 	string `query:"SELECT_ACCOUNT_BY_ID"`
+		INSERT_INTO_TRANSACTION string `query:"INSERT_INTO_TRANSACTION"`
+		UPDATE_ACCOUNT_BALANCE  string `query:"UPDATE_ACCOUNT_BALANCE"`
+	}
+)

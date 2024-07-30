@@ -1,0 +1,1 @@
+CREATE DATABASE TNGP_training_db;
